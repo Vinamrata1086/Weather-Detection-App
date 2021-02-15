@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body id="page_body">
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search_box" placeholder="City name"/>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">City, Country</div>
+                <div class="date">Day, dd mm, yy</div>
+            </section>
+            <div class="current">
+                <div><span class="temp">-</span><span class="deg">°C</span></div>
+                <div class="icon"><img src="pict/unknown.png" alt="weather" width="50"></div>
+                <div class="weather">Weather</div>
+                <div class="hi-low">High°C / Low°C</div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
