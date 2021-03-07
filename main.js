@@ -62,7 +62,7 @@ function displayResults(weather){
         else{
             if(weather.weather[0].main == "Haze")
             {
-                document.body.style.background = "url('pict/back_1.jpg') no-repeat bottom center ";
+                document.body.style.background = "url('pict/back_13.jpg') no-repeat bottom center ";
                 document.body.style.backgroundSize = "cover";
             }
             if(weather.weather[0].main == "Fog")
@@ -82,7 +82,7 @@ function displayResults(weather){
             }
             if(weather.weather[0].main == "Clear")
             {
-                document.body.style.background = "url('pict/back_7.jpg') no-repeat bottom center ";
+                document.body.style.background = "url('pict/Rainbow.jpg') no-repeat bottom center ";
                 document.body.style.backgroundSize = "cover";
             }
             if(weather.weather[0].main == "Snow")
