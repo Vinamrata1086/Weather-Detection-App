@@ -49,6 +49,18 @@ function displayResults(weather){
 
     let hilow = document.querySelector('.hi-low');
     hilow.innerHTML = `${weather.main.temp_max}°C / ${weather.main.temp_min}°C`;
+    
+    let humid = document.querySelector('.humidity');
+    humid.innerHTML = `${weather.main.humidity}%`;
+
+    let wind = document.querySelector('.wind');
+    wind.innerHTML = `${weather.wind.speed} m/s`;
+
+    let presre = document.querySelector('.pressure');
+    presre.innerHTML = `${weather.main.pressure} mb`;
+
+    let visible = document.querySelector('.visibility');
+    visible.innerHTML = `${weather.visibility/1000} km`;
 
     let icn=document.querySelector('.icon');
     icn.innerHTML=`<img src="pict/${weather.weather[0].icon}.png"/>`;
